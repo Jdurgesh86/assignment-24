@@ -1,0 +1,19 @@
+#include<iostream> 
+using namespace std;
+void Swap(int &a,int &b);
+int main()
+{
+    int a,b;
+    cout<<"Enter two numbers ";
+    cin>>a>>b;
+    cout<<"You enter a="<<a<<" b="<<b<<endl;
+    Swap(a,b);
+    cout<<"After swaping a="<<a<<" b="<<b<<endl;
+}
+void Swap(int &a,int &b)
+{
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+}
