@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+void add(int,int);
+void add(float,float);
+int main()
+{
+    int a,b;
+    cout<<"enter two numbers "<<endl;
+    cin>>a>>b;
+    add(a,b);
+    float x,y;
+    cout<<"enter two numbers ";
+    cin>>x>>y;
+    add(x,y);
+}
+void add(int a,int b)
+{
+    cout<<a+b<<endl;
+}
+
+void add(float a,float b)
+{
+    cout<<a+b<<endl;
+}
